@@ -4,17 +4,17 @@
 
 ### **무한차원 벡터공간에서 벡터 놀이를 하는 것** 과,
 
-### 왜 $L^2$ 는 **힐베르트 공간** 이고 $L^1, L^\infty$ 는 **아닌지**
+### 왜 $L^2$ 만 **힐베르트 공간** 이 되는지 — $L^p$ 공간
 
-$$L^p(\Omega) = \left\{ f : \int |f|^p\, d\mu < \infty \right\}, \quad p = 2 \text{ 만 inner product 정의 가능}$$
+$$L^p(\Omega) = \{\, f : \|f\|_p < \infty \,\}$$
 
-### 을 증명할 수 있는 것은 **다르다.**
+### 에서 **$p = 2$ 만 inner product 정의 가능** 함을 증명할 수 있는 것은 **다르다.**
 
 <br/>
 
 > *Kernel Method 를 **사용하는 것** 과, Mercer 정리로*
 >
-> $$k(x, y) = \langle \phi(x),\, \phi(y) \rangle_{\mathcal{H}}$$
+> $$k(x, y) = \langle \phi(x), \phi(y) \rangle_{\mathcal{H}}$$
 >
 > *가 **어떤 특성함수의 내적** 이 됨을 증명할 수 있는 것은 다르다.*
 >
