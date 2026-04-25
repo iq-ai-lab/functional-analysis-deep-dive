@@ -2,16 +2,35 @@
 
 # 🔬 Functional Analysis Deep Dive
 
-**"무한차원 벡터공간에서 벡터 놀이를 하는 것과, 왜 $L^2$는 힐베르트 공간이고 $L^1$, $L^\infty$는 아닌지 증명할 수 있는 것은 다르다"**
+### **무한차원 벡터공간에서 벡터 놀이를 하는 것** 과,
+
+### 왜 $L^2$ 는 **힐베르트 공간** 이고 $L^1, L^\infty$ 는 **아닌지**
+
+$$L^p(\Omega) = \left\{ f : \int |f|^p\, d\mu < \infty \right\}, \quad p = 2 \text{ 만 inner product 정의 가능}$$
+
+### 을 증명할 수 있는 것은 **다르다.**
 
 <br/>
 
-> *"Kernel Method를 사용하는 것과, Mercer 정리로 $k(x, y) = \langle \phi(x), \phi(y) \rangle_\mathcal{H}$가 어떤 특성함수의 내적이 됨을 증명할 수 있는 것은 다르다.  
-> Neural Tangent Kernel을 계산하는 것과, NTK가 RKHS의 재생핵이고 무한폭 한계에서 신경망이 RKHS 회귀와 동치임을 증명할 수 있는 것은 다르다."*
+> *Kernel Method 를 **사용하는 것** 과, Mercer 정리로*
+>
+> $$k(x, y) = \langle \phi(x),\, \phi(y) \rangle_{\mathcal{H}}$$
+>
+> *가 **어떤 특성함수의 내적** 이 됨을 증명할 수 있는 것은 다르다.*
+>
+> *Neural Tangent Kernel 을 **계산하는 것** 과, **NTK 가 RKHS 의 재생핵** 이고 무한폭 한계에서 **신경망이 RKHS 회귀와 동치** 임을 증명할 수 있는 것은 다르다.*
 
-무한차원의 선형대수 — 함수를 벡터처럼 다루는 수학, 완비성(Completeness)의 심장부터  
-Riesz 표현 정리, Moore-Aronszajn 정리, Representer 정리, NTK 이론까지  
-**"왜 이렇게 작동하는가"** 라는 질문으로 Kernel·GP·NTK·Neural Operator의 이론적 기반을 끝까지 파헤칩니다
+<br/>
+
+**다루는 정리 (시간순)**
+
+Hilbert 1909 *Hilbert space* · Banach 1922 *Banach space + 완비성* · Riesz 1907 / Fréchet 1907 *Riesz 표현 정리* · Hahn 1927 / Banach 1929 *Hahn–Banach 정리* · Mercer 1909 *Mercer 정리* · Aronszajn 1950 *RKHS + Moore–Aronszajn 정리* · Schölkopf 2001 *Representer 정리* · Jacot 2018 *Neural Tangent Kernel*
+
+<br/>
+
+**핵심 질문**
+
+> **무한차원의 선형대수 — 함수를 벡터처럼 다루는 수학** — 완비성 (Completeness) 의 심장부터 Riesz 표현 정리 · Moore–Aronszajn · Representer 정리 · NTK 이론까지, Kernel · GP · NTK · Neural Operator 의 이론적 기반을 끝까지 파헤칩니다.
 
 <br/>
 
